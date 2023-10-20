@@ -1,0 +1,127 @@
+/* CSS Styles */
+/* CSS Styles */
+html {
+    position: relative;
+    min-height: 100%;
+  }
+  body {
+    margin: 0;
+    padding-bottom: 80px; /* Height of the footer */
+    background-color: rgb(30, 35, 56);
+  }
+  
+  footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px; /* Height of the footer */
+    background-color: #f2f2f2;
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    background-color: #6e6e6e;
+    border-style: top;
+    border-color: #000000;
+    border-style: solid;
+  }
+  
+  h1 {
+    text-align: center;
+    margin: 0.2em 0;
+    font-size: 80px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+  }
+  h2 {
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 200;
+    font-size: 20px
+  }
+  
+  form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #6e6e6e;
+    border-radius: 10px;
+    padding: 2em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-color: #000000;
+    border-style: solid;
+    border-radius: 50px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  input[type="text"] {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #9b9b9b;
+    border-radius: 15px;
+    border-color: #000000;
+    border-style: solid;
+  }
+  
+  button[type="submit"] {
+    display: block;
+    margin: 0 auto;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 100px;
+    background-color: #000000;
+    color: #9b9b9b;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 500px;
+    margin-bottom: 1em;
+    
+  }
+  button[type="copy"] {
+    display: block;
+    margin: 0 auto;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 100px;
+    background-color: #000000;
+    color: #9b9b9b;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 500px;
+    margin-top: 1em;
+    margin-bottom: -25px;
+    
+  }
+
+
+  button[type="submit"]:hover {
+    background-color: #585858;
+    
+  }
+  button[type="copy"]:hover {
+    background-color: #585858;
+    
+  }
+
+  #generated-text {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    max-width: 600px;
+    margin: 2em auto;
+    background-color: #6e6e6e;
+    border-radius: 50px;
+    padding: 2em;
+    border-color: #000000;
+    border-style: solid;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
